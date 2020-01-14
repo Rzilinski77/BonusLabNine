@@ -1,0 +1,81 @@
+﻿body {
+    
+}
+
+h1 {
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Cambria Math';
+    padding-left: 10px;
+    width: 90px; /* width of container */
+    height: 90px;
+    margin: 0px auto;
+}
+.picture {
+    background: url(https://scontent.fdet1-2.fna.fbcdn.net/v/t1.0-9/26166126_10154897288371116_4190057982717758113_n.jpg?_nc_cat=104&_nc_ohc=YYmF5jEuls8AQm3kpP0RIdWqX524Y_OJxTjNWoVZpV2u27uyLytZww0yA&_nc_ht=scontent.fdet1-2.fna&oh=f0e6d6389d8042a613e4456bb6aa3ef9&oe=5ED91999);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    padding-top: 40px;
+}
+.intro {
+    padding-top: 30px;
+    padding-left: 400px;
+    width: 1000px;
+    height: 200px;
+}
+.picture {
+    float: left;
+}
+
+.name {
+    float: left;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    background-color: rgba(0,0,0,.7);
+    padding-top: 100px;
+    padding-left: 100px;
+    font-family: Calibri;
+    color: white;
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    height: 300px;
+    border-right: 3px solid white;
+}
+.logo {
+    width: 90px;
+    height: 90px;
+}
+
+.column2 {
+    background-color: rgba(0,0,0,.7);
+    padding-top: 100px;
+    padding-right: 100px;
+    font-family: Calibri;
+    color: white;
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    height: 300px;
+    border-left: 3px solid white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+

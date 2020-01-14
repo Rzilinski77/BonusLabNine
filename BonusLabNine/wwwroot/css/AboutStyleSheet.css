@@ -1,0 +1,27 @@
+﻿body {
+}
+
+h1 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    font-family: 'Cambria Math';
+}
+
+h2 {
+    color: white;
+    font-family: 'Cambria Math';
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Cambria Math';
+}
+
+h3 {
+    padding-top: 40px;
+    color: white;
+    font-family: 'Cambria Math';
+}
